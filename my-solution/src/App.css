@@ -24,11 +24,15 @@
     resize: none;
     flex-grow: 1;
     width: 50%;
+    overflow-y: scroll;
+    outline: none;
+    font-size: medium;
 }
 
 .markdownResult{
     flex-grow: 1;
     width: 50%;
+    padding: 10px;
 }
 
 
