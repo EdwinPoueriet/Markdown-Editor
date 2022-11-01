@@ -20,11 +20,15 @@
 }
 
 .mainInput{
+    padding: 10px;
+    resize: none;
     flex-grow: 1;
+    width: 50%;
 }
 
 .markdownResult{
-    flex-grow: 1
+    flex-grow: 1;
+    width: 50%;
 }
 
 
