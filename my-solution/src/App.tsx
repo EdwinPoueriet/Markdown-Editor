@@ -1,7 +1,11 @@
+import { useState } from "react";
+import ReactMarkdown from "react-markdown";
 function App() {
+  const [markdown, setMarkdown]= useState('')
   return (
     <div>
-      <textarea onChange={(e) => console.log(e.target.value)} rows={5} />
+      <textarea value={markdown} onChange={(e) => setMarkdown(e.target.value)} rows={5} />
+      <ReactMarkdown>{markdown}</ReactMarkdown>
     </div>
   );
 }
