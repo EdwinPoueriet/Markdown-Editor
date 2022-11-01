@@ -1,0 +1,24 @@
+.container{
+    display: flex;
+    flex-flow: column;
+    height: 100vh;
+}
+
+.header{
+  text-align: center;
+}
+
+.content{
+    display: flex;
+    height: 100%;
+}
+
+.mainInput{
+    flex-grow: 1;
+}
+
+.markdownResult{
+    flex-grow: 1
+}
+
+
