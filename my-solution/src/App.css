@@ -1,41 +1,36 @@
-.container{
-    display: flex;
-    flex-flow: column;
-    height: 100vh;
+.container {
+  display: flex;
+  flex-flow: column;
+  height: 100vh;
 }
 
-.header{
+.header {
   text-align: center;
   vertical-align: middle;
   line-height: 60px;
   background-color: rgb(63, 60, 60);
-  color:antiquewhite;
+  color: antiquewhite;
   font-weight: bolder;
   font-size: xx-large;
 }
 
-.content{
-    display: flex;
-    height: 100%;
-    background: rgb(221, 221, 221);
+.content {
+  display: flex;
+  height: 100%;
+  background: rgb(221, 221, 221);
 }
 
-.mainInput{
-    padding: 10px;
-    resize: none;
-    flex-grow: 1;
-    width: 50%;
-    overflow-y: scroll;
-    outline: none;
-    font-size: medium;
-    border:none;
-    background: rgb(221, 221, 221);
+.markdown {
+  flex-grow: 1;
+  width: 50%;
+  padding: 10px;
 }
 
-.markdownResult{
-    flex-grow: 1;
-    width: 50%;
-    padding: 10px;
+.markdown-input {
+  resize: none;
+  overflow-y: scroll;
+  outline: none;
+  font-size: medium;
+  border: none;
+  background: rgb(221, 221, 221);
 }
-
-
