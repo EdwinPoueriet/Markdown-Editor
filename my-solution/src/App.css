@@ -9,6 +9,9 @@
   vertical-align: middle;
   line-height: 60px;
   background-color: rgb(63, 60, 60);
+}
+
+.header_text {
   color: antiquewhite;
   font-weight: bolder;
   font-size: xx-large;

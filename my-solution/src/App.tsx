@@ -6,7 +6,9 @@ function App() {
   return (
     <>
       <div className="container">
-        <div className="header">Edwin's Markdown</div>
+        <div className="header">
+          <h1 className="header_text">Edwin's Markdown</h1>
+        </div>
         <div className="content">
           <textarea
             autoFocus
@@ -15,7 +17,7 @@ function App() {
             onChange={(e) => setMarkdown(e.target.value)}
             rows={5}
           />
-          <ReactMarkdown  className="markdown">{markdown}</ReactMarkdown>
+          <ReactMarkdown className="markdown">{markdown}</ReactMarkdown>
         </div>
       </div>
     </>
